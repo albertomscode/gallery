@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Gallery</title>
+        <link rel="stylesheet" href="./styles.css" />
+        <script defer src="./app.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="gallery">
+                <div class="title">Sevilla on tour</div>
+                <button id="prevButton" onclick="changeImage(-1)" aria-label="Previous Image">&#9665;</button>
+                <button id="nextButton" onclick="changeImage(1)" aria-label="Next Image">&#9655;</button>
+                <img src="./sevilla/joan-oger-DjcsrU9_hMM-unsplash.jpg" alt="The street colour of Seville" />
+                <img src="./sevilla/johan-mouchet-Z95viY3WaZs-unsplash(1).jpg" alt="Seville" />
+                <img src="./sevilla/joan-oger-ZoluTNeldUU-unsplash.jpg" alt="Seville" />
+                <img src="./sevilla/joan-oger-ZK_v7Uc7sqQ-unsplash.jpg" alt="Seville" />
+                <img src="./sevilla/sebastian-malecki-XrjTjJcOqs8-unsplash.jpg" alt="Seville" />
+                <img src="./sevilla/v2f-zsgZDg_OwLk-unsplash.jpg" alt="Seville" />
+            </div>
+        </header>
+        <main>
+            <img id="displayImage" src="./sevilla/joan-oger-DjcsrU9_hMM-unsplash.jpg" alt="Seville" />
+            <div id="announcer" role="status" aria-live="assertive" aria-atomic="true"></div>
+        </main>
+        <footer>Website made with ❤ by Alberto Moreno &copy2023</footer>
+    </body>
+</html>
