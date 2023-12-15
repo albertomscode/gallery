@@ -107,12 +107,13 @@ footer:hover{
     }
 
     #displayImage {
+        width: 550px;
         margin: 60px 0; /* Ajusta según sea necesario */
-        max-height: 400px; /* Ajusta según sea necesario */
+        max-height: 360px; /* Ajusta según sea necesario */
     }
 
     button {
-        font-size: 15px; /* Ajusta según sea necesario */
+        font-size: 16px; /* Ajusta según sea necesario */
         margin: 0 10px; /* Ajusta según sea necesario */
     }
 
