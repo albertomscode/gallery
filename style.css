@@ -2,7 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
     margin: 0;
-    padding: 20px;
+    padding: 2vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,9 +12,9 @@ body {
 
 .title{
     color: rgb(209, 184, 25);
-    font-size: 20px;
+    font-size: 1.2vw;
     text-decoration: underline overline;   
-    padding: 70px;
+    padding: 4.1vw;
     text-transform: uppercase;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -25,12 +25,12 @@ body {
     align-content: space-around;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 0.6vw;
     margin: 0 auto;
-    border-radius: 15px;
+    border-radius: 1.5vw;
     border: 2px solid rgba(255, 255, 255, 0.561);
-    box-shadow: 0 0 20px yellow;
-    padding-right: 10px;
+    box-shadow: 0 0 1.2vw yellow;
+    padding-right: 2vw;
 }
 
 .gallery img {
@@ -50,25 +50,25 @@ body {
 #displayImage {
     width: 100%;
     max-width: none;
-    max-height: 600px; /* Ajusta según sea necesario */
+    max-height: 37vw; /* Ajusta según sea necesario */
     height: auto;
-    margin: 40px 0;
-    border: 5px solid rgba(0, 0, 0, 0.2);
-    border-radius: 15px;
-    box-shadow: 0 0 50px rgba(187, 143, 11, 0.904);
+    margin: 2.19vw;
+    border: 0.3vw solid rgba(0, 0, 0, 0.2);
+    border-radius: 1.5vw;
+    box-shadow: 0 0 2.5vw rgba(187, 143, 11, 0.904);
     transition: transform 0.3s ease-in-out;
     overflow-y: auto;
 }
 
 button {
-    font-size: 18px;
-    padding: 5px;
-    margin: 0 20px;
+    font-size: 1.3vw;
+    padding: 0.27vw;
+    margin: 0 1.09vw;
     border: none;
     background-color: #333;
     color: white;
     cursor: pointer;
-    border-radius: 8px;
+    border-radius: 0.5vw;
     transition: background-color 0.3s ease-in-out;
 }
 
@@ -94,6 +94,7 @@ footer:hover{
     }
 
     .title {
+        font-size: 23px;
         padding: 20px; /* Ajusta según sea necesario */
         order: 1;
     }
