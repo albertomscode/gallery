@@ -1,3 +1,4 @@
+/*BODY*/
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
@@ -10,6 +11,7 @@ body {
     box-sizing: border-box;
 }
 
+/*GALLERY*/
 .title{
     color: rgb(209, 184, 25);
     font-size: 1.2vw;
@@ -47,6 +49,7 @@ body {
     transform: scale(1.1);
 }
 
+/*IMAGES ON DISPLAY*/
 #displayImage {
     width: 100%;
     max-width: none;
@@ -60,6 +63,7 @@ body {
     overflow-y: auto;
 }
 
+/*ARROWS STYLE*/
 button {
     font-size: 1.3vw;
     padding: 0.27vw;
@@ -75,6 +79,29 @@ button {
 button:hover {
     background-color: #555;
 }
+
+/* ANNOUNCER STYLE */
+.announcer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 999;
+    display: none; /* Ocultar inicialmente */
+}
+
+/* Estilo adicional para el texto dentro del anunciador */
+.announcer-text {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+
+
 /*FOOTER*/
 footer {
     background: black;

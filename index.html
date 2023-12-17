@@ -3,30 +3,33 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Gallery</title>
+        <title>Sevilla On Tour</title>
+    <link rel="icon" type="image/png" href="./favicon/sevilla-favicon.png" />
+
         <link rel="stylesheet" href="./style.css" />
         <script defer src="./app.js"></script>
     </head>
 
     <body>
         <header>
-            <div class="gallery">
+            <div class="gallery" aria-label="Image Gallery">
                 <div class="title">Sevilla on tour</div>
                 <button id="prevButton" onclick="changeImage(-1)" aria-label="Previous Image">&#9665;</button>
-                <img src="./Sevilla/axp-photography-WkjevoY35tg-unsplash.jpg" alt="The street colour of Seville" />
-                <img src="./Sevilla/hasmik-ghazaryan-olson-O28H3P7sbNI-unsplash.jpg" alt="Seville" />
-                <img src="./Sevilla/humphrey-muleba-a2M4-7I5Ebg-unsplash.jpg" alt="Seville" />
-                <img src="./Sevilla/miguel-bernardo-_NnzfDUAyuU-unsplash.jpg" alt="Seville" />
-                <img src="./Sevilla/taisia-karaseva-OopAso5Uye4-unsplash.jpg" alt="Seville" />
-                <img src="./Sevilla/taisia-karaseva-tgZOjt5FWcE-unsplash.jpg" alt="Seville" />
-                <img src="./Sevilla/tania-mousinho-dMi3pqiqhsw-unsplash.jpg" alt="Seville" />
-                <img src="./Sevilla/venus-major-LMyaxJ_77uQ-unsplash.jpg" alt="Seville" />
-                <img src="./Sevilla/yassine-nacif-7cKEPfRQamI-unsplash.jpg" alt="Seville" />
+                <img src="./Sevilla/axp-photography-WkjevoY35tg-unsplash.jpg" alt="The street colour of Seville" tabindex="0"/>
+                <img src="./Sevilla/hasmik-ghazaryan-olson-O28H3P7sbNI-unsplash.jpg" alt="Seville monument" tabindex="1"/>
+                <img src="./Sevilla/humphrey-muleba-a2M4-7I5Ebg-unsplash.jpg" alt="Seville views from the sky" tabindex="2" />
+                <img src="./Sevilla/miguel-bernardo-_NnzfDUAyuU-unsplash.jpg" alt="Cathedral of Seville" tabindex="3" />
+                <img src="./Sevilla/taisia-karaseva-OopAso5Uye4-unsplash.jpg" alt="Really beautiful Triana Bridge in the sunset" tabindex="4" />
+                <img src="./Sevilla/taisia-karaseva-tgZOjt5FWcE-unsplash.jpg" alt="View of Guadalquivir river" tabindex="5" />
+                <img src="./Sevilla/tania-mousinho-dMi3pqiqhsw-unsplash.jpg" alt="Spain Square in Maria Luisa Park" tabindex="6" />
+                <img src="./Sevilla/venus-major-LMyaxJ_77uQ-unsplash.jpg" alt="People dancing tipical sevillana's dance from Seville" tabindex="7" />
+                <img src="./Sevilla/yassine-nacif-7cKEPfRQamI-unsplash.jpg" alt="Views of the gorgeous colour Sevilla has in their monuments in Maria Luisa Park" tabindex="8" />
                 <button id="nextButton" onclick="changeImage(1)" aria-label="Next Image">&#9655;</button>
+                <div id="announcer" class="announcer" role="status" aria-live="assertive" aria-atomic="true"></div>
             </div>
         </header>
-        <main>
-            <img id="displayImage" src="./Sevilla/axp-photography-WkjevoY35tg-unsplash.jpg" alt="Seville" />
+        <main>  
+            <img id="displayImage" src="./Sevilla/axp-photography-WkjevoY35tg-unsplash.jpg" alt="Seville Initial Image" />
         </main>
         <footer>Website made with ❤ by Alberto Moreno &copy2023</footer>
     </body>
