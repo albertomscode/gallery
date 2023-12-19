@@ -1,0 +1,17 @@
+{
+  "name": "week3",
+  "version": "1.0.0",
+  "description": "This week proyect is all about creating an inclusive and user-friendly image gallery website with a focus on accessibility features, ensuring a seamless experience for users of all abilities. It is exciting! :D",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^5.0.10"
+  }
+}
