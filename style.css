@@ -91,10 +91,9 @@ button:hover {
     padding: 10px;
     border-radius: 5px;
     z-index: 999;
-    display: none; /* Ocultar inicialmente */
+    display: none;
 }
 
-/* Estilo adicional para el texto dentro del anunciador */
 .announcer-text {
     font-size: 1.2em;
     font-weight: bold;
